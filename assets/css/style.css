@@ -65,7 +65,7 @@
   position: relative;
 }
 
-.main-nav-link::after {
+.nav-effect::after {
   content: '';
   position: absolute;
   bottom: 0;
@@ -76,7 +76,7 @@
   transition: width 0.5s;
 }
 
-.main-nav-link:hover::after {
+.nav-effect:hover::after {
   width: 100%;
 }
 
